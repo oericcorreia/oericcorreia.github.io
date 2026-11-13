@@ -1,1 +1,43 @@
-site_name: My Docs
+site_name: Documentações & Estudos de Redes
+site_url: https://oericcorreia.github.io/
+site_description: Repositório de estudos de redes de computadores, Linux e tecnologia.
+site_author: Eric Correia
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    # Modo Escuro (padrão)
+    - scheme: slate
+      primary: sky
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Mudar para modo claro
+    # Modo Claro
+    - scheme: default
+      primary: sky
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para modo escuro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Início: index.md
+  - Redes de Computadores:
+    - Protocolos & Conceitos: redes/protocolos.md
+  - Hobbys & Tech:
+    - Linux & Homelab: hobbys/linux.md
