@@ -7,14 +7,12 @@ theme:
   name: material
   language: pt-BR
   palette:
-    # Modo Escuro (padrão)
     - scheme: slate
       primary: sky
       accent: cyan
       toggle:
         icon: material/weather-night
         name: Mudar para modo claro
-    # Modo Claro
     - scheme: default
       primary: sky
       accent: cyan
@@ -39,5 +37,7 @@ nav:
   - Início: index.md
   - Redes de Computadores:
     - Protocolos & Conceitos: redes/protocolos.md
-  - Hobbys & Tech:
-    - Linux & Homelab: hobbys/linux.md
+  - Linux & Homelab:
+    - Administração & Comandos: hobbys/linux.md
+  - Hobbys & Projetos:
+    - Estudos Diversos: diversos/projetos.md
